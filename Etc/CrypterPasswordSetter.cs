@@ -6,7 +6,7 @@ namespace Bam.Remote.Etc
     {
         public string Salt { get; set; }
         public ShadowPassword Set(string password)
-        {
+        {         
             return ShadowPassword.Parse(Crypter.Sha512.Crypt(password, $"$6${Salt}"));
         }
     }
