@@ -1,7 +1,7 @@
 ﻿<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>bam.remote</id>
-    <version>1.0.5-test+e44f550</version>
+    <version>1.0.6-dev+610f5f3</version>
     <authors>Bryan Apellanes</authors>
     <description>bam.remote</description>
   </metadata>
