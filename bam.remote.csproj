@@ -15,13 +15,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="bam.net.core" Version="1.0.6" />
         <PackageReference Include="CryptSharpOfficial" Version="2.1.0" />
         <PackageReference Include="SSH.NET" Version="2016.1.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\Bam.Net\_lib\bam.net.core\bam.net.core.csproj" />
+      <ProjectReference Include="..\bam.core\bam.core\bam.core.csproj" />
     </ItemGroup>
 
 </Project>
