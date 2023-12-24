@@ -219,13 +219,14 @@ namespace Bam.Remote.Deployment
         
         public static RemoteSshHost FromHostInfo(RemoteSshHostInfo hostInfo)
         {
-            return new RemoteSshHost
+            throw new NotImplementedException("ManagedPassword implementation is incomplete");
+            /*return new RemoteSshHost
             {
                 HostName = hostInfo.HostName,
                 Port = hostInfo.Port,
                 LoginUserName = hostInfo.UserName,
                 LoginPassword = hostInfo.ManagedPassword.Show()
-            };
+            };*/
         }
         
         public static string Execute(string hostName, int port, string userName, string password, string command)

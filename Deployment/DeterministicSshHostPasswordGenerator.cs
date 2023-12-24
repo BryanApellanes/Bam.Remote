@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Threading;
 using Bam.Net;
-using Bam.Net.CoreServices.ApplicationRegistration.Data;
+//using Bam.Net.CoreServices.ApplicationRegistration.Data;
 using Bam.Remote.Deployment.Data;
 using Org.BouncyCastle.Crypto.Macs;
 
@@ -29,7 +29,7 @@ namespace Bam.Remote.Deployment
         /// The value used as the key to the Hmac algorithm
         /// </summary>
         public string SharedSecret { get; set; }
-
+/*
         public ManagedPassword Generate()
         {
             return Generate(SshHostIdentifier.Current);
@@ -59,7 +59,7 @@ namespace Bam.Remote.Deployment
         public virtual string GetMacAddress()
         {
             return Machine.Current.GetFirstMac();
-        }
+        }*/
 
         private double? EnsureJulianDate(double? julianDate)
         {

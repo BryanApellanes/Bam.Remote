@@ -31,24 +31,27 @@ namespace Bam.Remote.Etc
             ShadowEntry shadowEntry = Shadow.AddEntry(userName, password);
             passwdEntry.GroupId = groupEntry.GroupId;
 
-            return new EtcUser
+            throw new NotImplementedException("ManagedPassword implementation is incomplete");
+/*            return new EtcUser
             {
                 EtcCredentialManager = this,
                 UserName = userName,
                 Password = new ManagedPassword(password)
-            };
+            };*/
         }
 
         public EtcUser SetPassword(string userName, string password)
         {
             Args.ThrowIf(!UserExists(userName), "Cannot change password, specified user does not exist: {0}", userName);
             RowsByUser[userName].Password.Set(password);
-            return new EtcUser
+
+            throw new NotImplementedException("ManagedPassword implementation is incomplete");
+/*            return new EtcUser
             {
                 EtcCredentialManager = this,
                 UserName = userName,
                 Password = new ManagedPassword(password)
-            };
+            };*/
         }
         
         public EtcGroup AddGroup(string groupName, params string[] members)

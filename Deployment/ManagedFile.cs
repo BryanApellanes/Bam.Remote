@@ -2,7 +2,6 @@ using System;
 using System.IO;
 using Bam.Net;
 using Bam.Net.CommandLine;
-using NLog.LayoutRenderers;
 
 namespace Bam.Remote.Deployment
 {

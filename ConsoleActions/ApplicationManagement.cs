@@ -2,12 +2,13 @@ using System;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using Bam.CommandLine;
 using Bam.Net;
 using Bam.Net.CommandLine;
 using Bam.Net.Server;
 using Bam.Net.ServiceProxy;
 using Bam.Net.Testing;
-using Bam.Net.Testing.Unit;
+//using Bam.Net.Testing.Unit;
 
 namespace Bam.ConsoleActions
 {
@@ -22,7 +23,7 @@ namespace Bam.ConsoleActions
             
             throw new NotImplementedException();
         }
-        
+/*        
         [ConsoleAction("compileAppServices", "Compile application specific services given an AppConf or BamConf")]
         public void CompileAppServices()
         {
@@ -55,6 +56,6 @@ namespace Bam.ConsoleActions
             }
             
             Thread.Sleep(300);
-        }
+        }*/
     }
 }

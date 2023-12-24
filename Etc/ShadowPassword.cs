@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 using Bam.Net;
 using Bam.Net.CommandLine;
 using Bam.Net.Services;
-using CryptSharp;
+using CryptSharp.Core;
 using Org.BouncyCastle.Security;
 
 namespace Bam.Remote.Etc

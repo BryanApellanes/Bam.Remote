@@ -1,6 +1,5 @@
 using System;
 using Bam.Net;
-using Bam.Net.Encryption;
 
 namespace Bam.Remote.Etc
 {

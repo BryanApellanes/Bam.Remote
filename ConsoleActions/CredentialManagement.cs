@@ -1,4 +1,5 @@
 using System;
+using Bam.CommandLine;
 using Bam.Net.CommandLine;
 using Bam.Net.Testing;
 using Bam.Remote.Deployment;
@@ -32,10 +33,10 @@ namespace Bam.Net.ConsoleActions
             
         }
         
-        protected ManagedPassword GetPasswordFor(string hostName, double? julianDate = null)
+/*        protected ManagedPassword GetPasswordFor(string hostName, double? julianDate = null)
         {
             throw new NotImplementedException();
-        }
+        }*/
 
         private RemoteSshHost GetRemoteHost()
         {

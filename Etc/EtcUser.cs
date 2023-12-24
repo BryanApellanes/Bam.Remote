@@ -6,7 +6,7 @@ namespace Bam.Remote.Etc
     {
         internal IEtcCredentialManager EtcCredentialManager { get; set; }
         public string UserName { get; set; }
-        public ManagedPassword Password { get; set; }
+        public IManagedPassword Password { get; set; }
         public EtcGroup[] Groups { get; set; }
     }
 }

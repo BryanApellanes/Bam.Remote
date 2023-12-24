@@ -23,7 +23,7 @@ namespace Bam.Remote.Deployment.Data
         public string HostAddresses { get; set; }
         
         public virtual List<SshHostCredentials> SshHostCredentials { get; set; }
-
+/*
         private static SshHostIdentifier _current;
         private static readonly object _currentLock = new object();
         public static SshHostIdentifier Current
@@ -39,6 +39,6 @@ namespace Bam.Remote.Deployment.Data
                         HostAddresses = string.Join(", ", Bam.Net.CoreServices.ApplicationRegistration.Data.Machine.Current.HostAddresses.Select(ha=> ha.IpAddress).ToArray())
                     });
             }
-        }
+        }*/
     }
 }

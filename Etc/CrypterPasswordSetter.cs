@@ -1,4 +1,5 @@
 using CryptSharp;
+using CryptSharp.Core;
 
 namespace Bam.Remote.Etc
 {

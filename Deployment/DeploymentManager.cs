@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Bam.Net;
-using Bam.Net.Automation;
+//using Bam.Net.Automation;
 using Bam.Net.Logging;
 using Bam.Remote.Deployment.Data;
 using Renci.SshNet;
@@ -57,7 +57,7 @@ namespace Bam.Remote.Deployment
                     HostName = host,
                     Port = port,
                     UserName = userName,
-                    ManagedPassword = new ManagedPassword(password)
+                    //ManagedPassword = new ManagedPassword(password)
                 }, managedFileSet, remoteFolder, overwrite
             );
         }

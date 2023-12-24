@@ -1,5 +1,5 @@
 using Bam.Net;
-using Bam.Net.CoreServices.ApplicationRegistration.Data;
+//using Bam.Net.CoreServices.ApplicationRegistration.Data;
 
 namespace Bam.Remote.Deployment
 {
@@ -8,7 +8,7 @@ namespace Bam.Remote.Deployment
         public RemoteSshHostInfo()
         {
             UserName = "bambot";
-            HostName = Machine.Current.Name;
+            //HostName = Machine.Current.Name;
             Port = 22;
         }
 
@@ -21,7 +21,7 @@ namespace Bam.Remote.Deployment
         public string HostName { get; set; }
         public int Port { get; set; }
         public string UserName { get; set; }
-        public ManagedPassword ManagedPassword { get; set; }
+        //public ManagedPassword ManagedPassword { get; set; }
 
         public RemoteSshHost ToRemoteSshHost()
         {
