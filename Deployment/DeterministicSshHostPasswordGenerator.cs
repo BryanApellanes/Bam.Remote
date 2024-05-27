@@ -1,8 +1,8 @@
 using System;
 using System.Linq;
 using System.Threading;
-using Bam.Net;
-//using Bam.Net.CoreServices.ApplicationRegistration.Data;
+using Bam;
+//using Bam.CoreServices.ApplicationRegistration.Data;
 using Bam.Remote.Deployment.Data;
 using Org.BouncyCastle.Crypto.Macs;
 

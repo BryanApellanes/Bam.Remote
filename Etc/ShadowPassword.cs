@@ -1,8 +1,8 @@
 using System;
 using System.Security.Cryptography;
-using Bam.Net;
-using Bam.Net.CommandLine;
-using Bam.Net.Services;
+using Bam;
+using Bam.CommandLine;
+using Bam.Services;
 using CryptSharp.Core;
 using Org.BouncyCastle.Security;
 

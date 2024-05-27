@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using Bam.Net;
+using Bam;
 
 namespace Bam.Remote.Etc
 {

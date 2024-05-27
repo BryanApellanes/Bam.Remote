@@ -3,12 +3,12 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using Bam.CommandLine;
-using Bam.Net;
-using Bam.Net.CommandLine;
-using Bam.Net.Server;
-using Bam.Net.ServiceProxy;
-using Bam.Net.Testing;
-//using Bam.Net.Testing.Unit;
+using Bam;
+using Bam.CommandLine;
+using Bam.Server;
+using Bam.ServiceProxy;
+using Bam.Testing;
+//using Bam.Testing.Unit;
 
 namespace Bam.ConsoleActions
 {

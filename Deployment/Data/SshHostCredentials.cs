@@ -1,4 +1,4 @@
-using Bam.Net.Data.Repositories;
+using Bam.Data.Repositories;
 
 namespace Bam.Remote.Deployment.Data
 {

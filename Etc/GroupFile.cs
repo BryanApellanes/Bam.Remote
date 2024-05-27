@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Bam.Net;
+using Bam;
 
 namespace Bam.Remote.Etc
 {

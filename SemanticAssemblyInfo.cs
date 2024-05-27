@@ -1,5 +1,5 @@
 using System.Reflection;
-using Bam.Net;
+using Bam;
 
 [assembly: AssemblyVersion("1.0.6.0")]
 [assembly: AssemblyFileVersion("1.0.6.0")]

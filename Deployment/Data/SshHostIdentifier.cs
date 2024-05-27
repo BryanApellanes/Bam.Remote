@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.PortableExecutable;
-using Bam.Net;
-using Bam.Net.Data.Repositories;
+using Bam;
+using Bam.Data.Repositories;
 
 namespace Bam.Remote.Deployment.Data
 {
@@ -33,10 +33,10 @@ namespace Bam.Remote.Deployment.Data
                 return _currentLock.DoubleCheckLock(ref _current, () =>
                     new SshHostIdentifier
                     {
-                        HostName = Bam.Net.CoreServices.ApplicationRegistration.Data.Machine.Current.Name,
+                        HostName = Bam.CoreServices.ApplicationRegistration.Data.Machine.Current.Name,
                         Port = 22,
-                        MacAddress = Bam.Net.CoreServices.ApplicationRegistration.Data.Machine.Current.GetFirstMac(),
-                        HostAddresses = string.Join(", ", Bam.Net.CoreServices.ApplicationRegistration.Data.Machine.Current.HostAddresses.Select(ha=> ha.IpAddress).ToArray())
+                        MacAddress = Bam.CoreServices.ApplicationRegistration.Data.Machine.Current.GetFirstMac(),
+                        HostAddresses = string.Join(", ", Bam.CoreServices.ApplicationRegistration.Data.Machine.Current.HostAddresses.Select(ha=> ha.IpAddress).ToArray())
                     });
             }
         }*/

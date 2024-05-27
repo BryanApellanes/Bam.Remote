@@ -1,12 +1,12 @@
 using System;
 using Bam.CommandLine;
-using Bam.Net.CommandLine;
-using Bam.Net.Testing;
+using Bam.CommandLine;
+using Bam.Testing;
 using Bam.Remote.Deployment;
 using Bam.Remote.Deployment.Data;
 using Bam.Remote.Etc;
 
-namespace Bam.Net.ConsoleActions
+namespace Bam.ConsoleActions
 {
     public class CredentialManagement : CommandLineTool
     {
