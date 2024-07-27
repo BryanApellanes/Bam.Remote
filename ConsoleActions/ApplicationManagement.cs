@@ -7,7 +7,7 @@ using Bam;
 using Bam.CommandLine;
 using Bam.Server;
 using Bam.ServiceProxy;
-using Bam.Testing;
+using Bam.Test;
 //using Bam.Testing.Unit;
 
 namespace Bam.ConsoleActions

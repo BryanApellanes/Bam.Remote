@@ -1,7 +1,7 @@
 using System;
 using Bam.CommandLine;
 using Bam.CommandLine;
-using Bam.Testing;
+using Bam.Test;
 using Bam.Remote.Deployment;
 using Bam.Remote.Deployment.Data;
 using Bam.Remote.Etc;
