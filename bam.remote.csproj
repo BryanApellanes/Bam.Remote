@@ -29,7 +29,6 @@
       <ProjectReference Include="..\bam.commandline\bam.commandline\bam.commandline.csproj" />
       <ProjectReference Include="..\bam.data.repositories\bam.data.repositories\bam.data.repositories.csproj" />
       <ProjectReference Include="..\bam.data\bam.data\bam.data.csproj" />
-      <ProjectReference Include="..\bam.testing\bam.testing\bam.testing.csproj" />
     </ItemGroup>
 
 </Project>
