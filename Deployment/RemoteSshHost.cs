@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Bam;
 using Bam.CoreServices.ApplicationRegistration.Data;
 using Bam.Logging;
-using Bam.Test;
 using Bam.Remote.Etc;
 using Renci.SshNet;
 using Renci.SshNet.Common;
