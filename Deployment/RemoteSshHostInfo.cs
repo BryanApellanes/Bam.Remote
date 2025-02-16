@@ -1,4 +1,4 @@
-using Bam;
+
 //using Bam.CoreServices.ApplicationRegistration.Data;
 
 namespace Bam.Remote.Deployment

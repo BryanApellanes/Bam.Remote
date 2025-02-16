@@ -1,5 +1,4 @@
 using System.Linq;
-using Bam;
 
 namespace Bam.Remote.Etc
 {

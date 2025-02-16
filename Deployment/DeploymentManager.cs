@@ -1,14 +1,8 @@
 using System;
-using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
-using Bam;
 //using Bam.Automation;
 using Bam.Logging;
 using Bam.Remote.Deployment.Data;
-using Renci.SshNet;
-using Renci.SshNet.Common;
-using Renci.SshNet.Sftp;
 
 namespace Bam.Remote.Deployment
 {

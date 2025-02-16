@@ -1,7 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.PortableExecutable;
-using Bam;
 using Bam.Data.Repositories;
 
 namespace Bam.Remote.Deployment.Data

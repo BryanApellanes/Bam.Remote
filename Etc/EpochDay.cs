@@ -1,5 +1,4 @@
 using System;
-using Bam;
 
 namespace Bam.Remote.Etc
 {

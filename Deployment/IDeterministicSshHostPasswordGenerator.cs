@@ -1,6 +1,3 @@
-using Bam;
-using Bam.Remote.Deployment.Data;
-
 namespace Bam.Remote.Deployment
 {
     public interface IDeterministicSshHostPasswordGenerator

@@ -1,10 +1,7 @@
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Bam;
 using Bam.Remote.Deployment.Data;
-using CsQuery.ExtensionMethods;
 
 namespace Bam.Remote.Deployment
 {

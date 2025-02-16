@@ -3,8 +3,6 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Bam;
-using Bam.CoreServices.ApplicationRegistration.Data;
 using Bam.Logging;
 using Bam.Remote.Etc;
 using Renci.SshNet;

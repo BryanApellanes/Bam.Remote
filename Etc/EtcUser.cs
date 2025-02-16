@@ -1,5 +1,3 @@
-using Bam;
-
 namespace Bam.Remote.Etc
 {
     public class EtcUser

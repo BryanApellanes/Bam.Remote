@@ -1,7 +1,5 @@
 using System;
 using System.IO;
-using Bam;
-using Bam.CommandLine;
 
 namespace Bam.Remote.Deployment
 {

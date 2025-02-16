@@ -1,7 +1,3 @@
-using System;
-using System.Security.Cryptography;
-using Bam;
-using Bam.CommandLine;
 using CryptSharp.Core;
 
 namespace Bam.Remote.Etc
