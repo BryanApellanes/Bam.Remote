@@ -94,9 +94,6 @@ namespace Bam.Remote.Deployment
             string newUserName, string newUserPassword)
         {
             throw new NotImplementedException("This method is not properly implemented");
-            // TODO: fix this implementation to modify files directly or set sudo to not require password on the host or both
-            return Execute(hostName, port, loginUserName, loginPassword,
-                $"useradd {newUserName}; echo -e \"{newUserPassword}\n{newUserPassword}\" | passwd {newUserName}");
         }
         
         public string[] ListNetworkInterfaces(string hostName, int port, string userName, string password)

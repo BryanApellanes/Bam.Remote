@@ -6,7 +6,7 @@ namespace Bam.Remote.Deployment
 {
     public class DeterministicSshHostPasswordGenerator : IDeterministicSshHostPasswordGenerator
     {
-        private Instant _lastGen;
+        private Instant _lastGen = null;
         public DeterministicSshHostPasswordGenerator()
         {
             SharedSecret = string.Empty;
