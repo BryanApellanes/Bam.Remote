@@ -34,4 +34,7 @@
       <Folder Include="ConsoleActions\" />
     </ItemGroup>
 
+  <Target Name="EnsureIntermediatePackDir" BeforeTargets="GenerateNuspec">
+    <MakeDir Directories="$(PublishDir)" />
+  </Target>
 </Project>
